@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(b1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 700px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb);    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.search input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.details .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.city {
+    font-size: 24px;
+    color: #555;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+.clear-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.clouds-icon {
+    width: 170px;
+    height: 170px;
+}
+
+.rain-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.mist-icon {
+    width: 180px;
+    height: 180px;
+}
+
+.drizzle-icon {
+    width: 160px;
+    height: 160px;
+}
+
+.default-icon {
+    width: 140px;
+    height: 140px;
+}
+
